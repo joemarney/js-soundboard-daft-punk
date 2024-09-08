@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Daft Font";
+  color: #cc0303;
+  font-size: 6vw;
+}
+h2 {
+  text-align: center;
+  font-family: "Monoton", sans-serif;
+  font-size: 4vw;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Daft Font";
+  src: url("../fonts/daft_font.TTF") format("truetype");
+}
+
+.container {
+  max-width: 1180px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+  padding: 0.9vw;
+  margin: 0 auto;
+  background-color: rgb(67, 67, 67);
+  border-radius: 2%;
+}
+#hoverImage {
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/head.gif");
+  background-size: cover;
+}
+button {
+  flex: 0 0 calc(25% - 10px);
+  height: calc(25vw - 10px);
+  max-height: 300px;
+  max-width: 300px;
+  color: black;
+  border-radius: 10%;
+  font-family: "Monoton", sans-serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-color: gray;
+  border-style: solid;
+}
+button:hover {
+  background-image: url("../images/head.gif");
+  background-position: center;
+  background-size: cover;
+  color: goldenrod;
+  border-color: red;
+  font-family: "Daft Font";
+}
+
+button:nth-child(1) {
+  background-color: #ffff00;
+}
+button:nth-child(2) {
+  background-color: #ff7f00;
+}
+button:nth-child(3) {
+  background-color: #ff00ff;
+}
+button:nth-child(4) {
+  background-color: #ffff00;
+}
+button:nth-child(5) {
+  background-color: #ff0000;
+}
+button:nth-child(6) {
+  background-color: #00ffff;
+}
+button:nth-child(7) {
+  background-color: #00ff00;
+}
+button:nth-child(8) {
+  background-color: #ffffff;
+}
+button:nth-child(9) {
+  background-color: #ff7f00;
+}
+button:nth-child(10) {
+  background-color: #ff0000;
+}
+button:nth-child(11) {
+  background-color: #ff00ff;
+}
+button:nth-child(12) {
+  background-color: #00ff00;
+}
+button:nth-child(13) {
+  background-color: #ff00ff;
+}
+button:nth-child(14) {
+  background-color: #ffffff;
+}
+button:nth-child(15) {
+  background-color: #ffff00;
+}
+button:nth-child(16) {
+  background-color: #00ffff;
+}
+
+@media (min-width: 1512px) {
+  button {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 1512px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+footer {
+  padding: 100px;
+}
